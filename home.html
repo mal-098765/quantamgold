@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuantumGold - Future of Digital Finance</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #444444), url('black.jpg') no-repeat center center/cover;
+      color: #ffd700;
+      overflow-x: hidden;
+    }
+    header {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+      color: #ffd700;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2rem;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    .hero {
+      background: url('classic.jpg') no-repeat center center/cover;
+      padding: 100px 20px;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+      position: relative;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+    .hero button {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      color: #222;
+      background-color: #ffd700;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .hero button:hover {
+      background-color: #e6b800;
+    }
+    .wallet-section {
+      margin: 40px auto;
+      padding: 20px;
+      background: #333;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .wallet-section h2 {
+      color: #00ff95;
+    }
+    .wallet-section button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: #222;
+      background-color: #ff0000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .wallet-section button:hover {
+      background-color: #e6b800;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .feature {
+      width: 300px;
+      margin: 15px;
+      background: #333;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      text-align: center;
+      position: relative;
+    }
+    .feature img {
+      max-width: 100%;
+      border-radius: 5px;
+      animation: glow 3s infinite;
+      cursor: pointer;
+    }
+    .feature img:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s;
+    }
+    @keyframes glow {
+      0% { box-shadow: 0 0 10px #ffd700; }
+      50% { box-shadow: 0 0 30px #00ff00; }
+      100% { box-shadow: 0 0 10px #ff4500; }
+    }
+    .floating-images {
+      position: relative;
+      animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>QuantumGold</h1>
+    <nav>
+      <a href="#about" onclick="document.getElementById('about-section').scrollIntoView();">About</a>
+      <a href="#features">Features</a>
+      <a href="mailto:malcommunyoroku@gmail.com">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to QuantumGold</h2>
+      <p>The future of secure and sustainable digital finance.</p>
+      <button onclick="window.location.href='https://trustwallet.com/'">Buy QuantumGold Now</button>
+    </section>
+
+    <section class="wallet-section">
+      <h2>Connect Your Wallet</h2>
+      <p>Easily connect your wallet to manage QuantumGold transactions.</p>
+      <button onclick="window.location.href='https://trustwallet.com/'">Connect Trust Wallet</button>
+      <button onclick="window.location.href='https://metamask.io/'">Connect MetaMask</button>
+      <button onclick="window.location.href='https://www.coinbase.com/wallet'">Connect Coinbase Wallet</button>
+    </section>
+
+    <section id="features">
+      <h2>Interesting Facts</h2>
+      <div class="features">
+        <div class="feature floating-images">
+          <img src="pirate.jpg" alt="First QuantumGold Coin"/>
+          <h3>The First QuantumGold Coin</h3>
+          <p>The first minted QuantumGold coin was issued in 2024, representing a major step forward in blockchain innovation.</p>
+        </div>
+        <div class="feature floating-images">
+          <img src="classic.jpg" alt="Eco-Friendly Mining"/>
+          <h3>Eco-Friendly Mining</h3>
+          <p>QuantumGold utilizes energy-efficient proof-of-stake mechanisms, reducing environmental impact.</p>
+        </div>
+      </div>
+      
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature floating-images">
+          <a href="https://trustwallet.com/">
+            <img src="elon.jpg" alt="Gold-Backed Stability">
+          </a>
+          <h3>Gold-Backed Stability</h3>
+          <p>QuantumGold offers real value, backed by physical gold reserves.</p>
+        </div>
+        <div class="feature floating-images">
+          <a href="https://metamask.io/">
+            <img src="quantam gold02.jpg" alt="Quantum-Secure">
+          </a>
+          <h3>Quantum-Secure</h3>
+          <p>Advanced algorithms ensure security in a quantum computing world.</p>
+        </div>
+        <div class="feature floating-images">
+          <a href="https://www.coinbase.com/wallet">
+            <img src="Quantam gold.jpg" alt="Eco-Friendly Blockchain">
+          </a>
+          <h3>Eco-Friendly Blockchain</h3>
+          <p>Designed with sustainability in mind using energy-efficient technology.</p>
+        </div>
+      </div>
+    </section>
+      <section id="about-section" style="padding: 20px; background: #222; color: #ffd700; text-align: center;">
+      <h2>About QuantumGold</h2>
+      <p>QuantumGold is a revolutionary cryptocurrency platform designed to combine the stability of gold with the cutting-edge advancements in blockchain technology. Owned and founded by Malcom, QuantumGold aims to provide secure, sustainable, and innovative solutions for the future of digital finance.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 QuantumGold. All rights reserved. | <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
